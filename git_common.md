@@ -36,6 +36,16 @@ git branch  //查看所有分支及当前分支
 git diff    //比较修改前后的文件
 ```
 
+### 常用配置命令
+```
+git config --global user.name "yourname"
+git config --global user.email "yourname@abc.com"
+git config --global color.ui true
+git config --global core.editor "code" //设置默认编辑工具
+git config --global core.quotepath false //设置显示中文文件名
+git config --global alias.log1 "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+
 # 常用git资源
 * [Git工具包集合](https://git-scm.com/)
 * [Git Windows工具包](https://git-for-windows.github.io)
