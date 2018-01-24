@@ -28,3 +28,13 @@ git merge feature       //合并feature分支到master
 //另外，我们可以通过pull命令将远端的代码拉去（下载）到本地
 git pull
 ```
+### 其它常用命令
+```
+git status  //查看git状态
+git branch  //查看所有分支及当前分支
+git diff    //比较修改前后的文件
+```
+
+# 常用git资源
+Git的Windows安装包 https://git-for-windows.github.io 或 https://git-scm.com/
+
