@@ -23,7 +23,8 @@ git merge feature       //合并feature分支到master
 //暂存区是暂存代码变更的地方
 //远端是存放公共项目文件的服务器
 
-//Git能识别你在工作区对代码所做的更改，并能通过add命令放到暂存区，暂存区的文件通过push提交到远端。注意：任何在工作区或者暂存区的东西，只要你不推送的远端，别人是看不见的。
+//Git能识别你在工作区对代码所做的更改，并能通过add命令放到暂存区，暂存区的文件通过push提交到远端。
+//注意：任何在工作区或者暂存区的东西，只要你不推送的远端，别人是看不见的。
 
 //另外，我们可以通过pull命令将远端的代码拉去（下载）到本地
 git pull
@@ -36,5 +37,6 @@ git diff    //比较修改前后的文件
 ```
 
 # 常用git资源
-Git的Windows安装包 https://git-for-windows.github.io 或 https://git-scm.com/
+* [Git工具包集合](https://git-scm.com/)
+* [Git Windows工具包](https://git-for-windows.github.io)
 
