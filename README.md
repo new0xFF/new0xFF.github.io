@@ -39,3 +39,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Others
 * [Git常用命令](git_common.md)
 * [Conan剧集](Conan.md)
+* [VSCode用法](VSCode/vscode_install.md)
