@@ -4,16 +4,16 @@
 ![image](Git/git工作流.jpg)
 ```
 //创建新的分支，并修改
-git checkout -b feature //创建名为feature的分支，并切换到新的分支
-git add newfile.md //增加一个新的文件
+git branch feature      //创建名为feature的分支
+git checkout feature    //切换到新的分支
+git add newfile.md      //增加一个新的文件
 git commit -m "my comment"  //添加注释
-
-//推送本地分支到远端
-git push    
+git push origin feature //推送本地分支到远端
 
 //合并分支到master主线
-git checkout master     // 首先切换到master主线
+git checkout master     //首先切换到master主线
 git merge feature       //合并feature分支到master
+git push origin master  //推送本地分支到远端
 ```
 
 ### git工作流的三个部分：工作区-暂存区-远端
